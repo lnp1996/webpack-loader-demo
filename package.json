@@ -1,0 +1,17 @@
+{
+  "name": "webpack-loader-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "marked": "^10.0.0",
+    "webpack": "4.39.2",
+    "webpack-cli": "3.3.6",
+    "webpack-dev-server": "3.11.0"
+  },
+  "scripts": {
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider webpack-dev-server --config ./webpack.dev.js",
+    "build": "webpack --config ./webpack.prod.js"
+  },
+  "dependencies": {}
+}
